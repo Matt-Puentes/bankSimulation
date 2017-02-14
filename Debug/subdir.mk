@@ -8,6 +8,11 @@ CPP_SRCS += \
 ../main.cpp \
 ../tellerLine.cpp 
 
+O_SRCS += \
+../Event.o \
+../main.o \
+../tellerLine.o 
+
 OBJS += \
 ./Event.o \
 ./main.o \

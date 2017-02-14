@@ -1,5 +1,6 @@
 #ifndef TELLERLINE_CPP_
 #define TELLERLINE_CPP_
+
 #include"Event.h"
 class Event;
 class lineNode {
@@ -11,6 +12,7 @@ public:
 };
 class tellerLine {
 public:
+	int length;
 	lineNode *head;
 	tellerLine();
 	~tellerLine();
